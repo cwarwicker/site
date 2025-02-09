@@ -4563,8 +4563,8 @@ textarea.form-control-lg {
 .page-link.active, .active > .page-link {
   z-index: 3;
   color: var(--bs-pagination-active-color);
-  background-color: var(--bs-pagination-active-bg);
-  border-color: var(--bs-pagination-active-border-color);
+  background-color: rgb(var(--bs-primary-rgb));
+  border-color: rgb(var(--bs-primary-rgb));
 }
 .page-link.disabled, .disabled > .page-link {
   color: var(--bs-pagination-disabled-color);
@@ -10979,8 +10979,8 @@ html {
 }
 
 .masthead {
-  padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem;
+  padding-top: calc(2rem + 74px);
+  padding-bottom: 2rem;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
@@ -10995,8 +10995,8 @@ html {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
-    padding-bottom: 6rem;
+    padding-top: calc(2rem + 104px);
+    padding-bottom: 2rem;
   }
   .masthead .masthead-heading {
     font-size: 4rem;
@@ -11066,4 +11066,96 @@ div.book-title {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 12pt;
+}
+
+div#content {
+  margin: 50px 0;
+}
+
+article.blog-post,
+article.blog-post-list-item {
+  padding: 0 50px;
+  margin-bottom: 50px;
+}
+
+div.blog-post-title,
+div.blog-post-date,
+div.blog-post-tags {
+  text-align: center;
+}
+
+div.blog-post-title {
+  font-size: 24pt;
+  text-transform: uppercase;
+}
+
+div.blog-post-date {
+  font-size: 14pt;
+}
+
+div.blog-post-tags {
+  margin: 10px 0;
+}
+
+a.blog-post-tag,
+a.blog-post-list-continue {
+  display: inline-block;
+  margin: 0 10px;
+  background-color: rgb(var(--bs-primary-rgb));
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a.blog-post-list-continue {
+  margin: inherit;
+  font-size: 10pt;
+}
+
+a.blog-post-tag:hover,
+a.blog-post-list-continue:hover {
+  color: #000;
+}
+
+div.blog-most-recent-posts-heading {
+  font-size: 12pt;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+div.blog-most-recent-post {
+  margin: 10px 0;
+}
+
+div.blog-post-list-title {
+  font-size: 14pt;
+}
+
+div.blog-post-list-date {
+  font-size: 12pt;
+}
+
+div.blog-most-recent-post-title a,
+div.blog-post-list-title a {
+  text-decoration: none;
+}
+
+div.blog-most-recent-post-title a:hover,
+div.blog-post-list-title a:hover {
+  color: rgb(var(--bs-primary-rgb));
+}
+
+div.blog-most-recent-post-date {
+  color: grey;
+  font-size: 10pt;
+}
+
+div.blog-post-list-content {
+  margin-top: 25px;
+}
+
+ul.blog-post-pagination {
+
 }
