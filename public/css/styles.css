@@ -11156,6 +11156,15 @@ div.blog-post-list-content {
   margin-top: 25px;
 }
 
-ul.blog-post-pagination {
+div.blog-post-image {
+  margin: 20px 0;
+  text-align: center;
+}
 
+div.blog-post-image img {
+  width: 100%;
+}
+
+div.blog-post-thumbnail img {
+  width: 100%;
 }
