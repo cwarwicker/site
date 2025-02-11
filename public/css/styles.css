@@ -11168,3 +11168,8 @@ div.blog-post-image img {
 div.blog-post-thumbnail img {
   width: 100%;
 }
+
+div.blog-page-heading {
+  font-size: 20pt;
+  text-align: center;
+}
