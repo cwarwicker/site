@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <?php if (isset($Page)): ?>
         <?php foreach($Page->metadata() as $t => $v): ?>
-            <meta name="<?= $t ?>>" content="<?= $v ?>">
+            <meta property="<?= $t ?>" content="<?= $v ?>">
         <?php endforeach; ?>
+    <?php else: ?>
+        <meta name="title" content="Conn Warwicker - Author/Software Developer">
+        <meta name="description" content="Portfolio and blog of Conn Warwicker - fantasy author" />
     <?php endif; ?>
-    <meta name="title" content="Conn Warwicker - Author/Software Developer">
     <meta name="keywords" content="Conn,Warwicker,Author,Writer,Torn,World,Trilogy,Indie,Fantasy" />
-    <meta name="description" content="Portfolio and blog of Conn Warwicker - fantasy author" />
     <meta name="author" content="Conn Warwicker" />
     <title>Conn Warwicker - Author // Software Developer</title>
     <!-- Favicon-->
