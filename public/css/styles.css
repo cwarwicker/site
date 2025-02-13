@@ -11173,3 +11173,11 @@ div.blog-page-heading {
   font-size: 20pt;
   text-align: center;
 }
+
+div.blog-post-content a {
+  color: rgb(var(--bs-primary-rgb));
+}
+
+div.blog-post-content a:hover {
+  color: #000;
+}
