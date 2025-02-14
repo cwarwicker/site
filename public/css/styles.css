@@ -11119,10 +11119,18 @@ a.blog-post-list-continue:hover {
   color: #000;
 }
 
-div.blog-most-recent-posts-heading {
+div.blog-most-recent-posts-heading,
+div.blog-tag-list-heading {
+  background-color: rgb(var(--bs-primary-rgb));
+  color: #fff;
+  text-transform: uppercase;
   font-size: 12pt;
+  padding: 4px;
   font-weight: bold;
-  text-decoration: underline;
+}
+
+div.blog-tag-list-heading {
+  margin-top: 50px;
 }
 
 div.blog-most-recent-post {
@@ -11138,12 +11146,14 @@ div.blog-post-list-date {
 }
 
 div.blog-most-recent-post-title a,
-div.blog-post-list-title a {
+div.blog-post-list-title a,
+div.blog-tag-list-item-title a {
   text-decoration: none;
 }
 
 div.blog-most-recent-post-title a:hover,
-div.blog-post-list-title a:hover {
+div.blog-post-list-title a:hover,
+div.blog-tag-list-item-title a:hover {
   color: rgb(var(--bs-primary-rgb));
 }
 
